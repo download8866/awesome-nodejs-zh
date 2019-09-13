@@ -31,42 +31,42 @@
 ## 内容大纲
 
 - [包资源](#包资源)
-	- [Mad science](#mad-science)
-	- [Command-line apps](#command-line-apps)
+	- [科学计算](#科学计算)
+	- [命令行应用](#命令行应用)
 	- [函数式编程](#函数式编程)
 	- [HTTP](#http)
 	- [Debugging / Profiling](#debugging--profiling)
-	- [Logging](#logging)
+	- [日志记录](#日志记录)
 	- [Command-line utilities](#command-line-utilities)
 	- [构建工具](#构建工具)
-	- [Hardware](#hardware)
-	- [Templating](#templating)
-	- [Web frameworks](#web-frameworks)
-	- [Documentation](#documentation)
-	- [Filesystem](#filesystem)
-	- [Control flow](#control-flow)
-	- [Streams](#streams)
-	- [Real-time](#real-time)
-	- [Image](#image)
-	- [Text](#text)
-	- [Number](#number)
-	- [Math](#math)
-	- [Date](#date)
+	- [硬件](#硬件)
+	- [模版引擎](#模版引擎)
+	- [Web框架](#Web框架)
+	- [文档](#文档)
+	- [文件系统](#文件系统)
+	- [控制流程](#控制流程)
+	- [流处理](#流处理)
+	- [实时](#实时)
+	- [图片](#图片)
+	- [文本](#文本)
+	- [数字](#数字)
+	- [数学](#数学)
+	- [时间日期](#时间日期)
 	- [URL](#url)
-	- [Data validation](#data-validation)
-	- [Parsing](#parsing)
+	- [数据可视化](#数据可视化)
+	- [解析器](#解析器)
 	- [Humanize](#humanize)
-	- [Compression](#compression)
-	- [Network](#network)
-	- [Database](#database)
-	- [Testing](#testing)
-	- [Security](#security)
-	- [Benchmarking](#benchmarking)
+	- [压缩](#压缩)
+	- [网络](#网络)
+	- [数据库](#数据库)
+	- [测试](#测试)
+	- [安全](#安全)
+	- [性能评测](#性能评测)
 	- [Minifiers](#minifiers)
 	- [Authentication](#authentication)
 	- [Authorization](#authorization)
 	- [Email](#email)
-	- [Job queues](#job-queues)
+	- [任务队列](#任务队列)
 	- [Node.js management](#nodejs-management)
 	- [Natural language processing](#natural-language-processing)
 	- [Process management](#process-management)
@@ -75,13 +75,13 @@
 	- [Static site generators](#static-site-generators)
 	- [Content management systems](#content-management-systems)
 	- [Forum](#forum)
-	- [Blogging](#blogging)
+	- [博客生成](#博客生成)
 	- [Weird](#weird)
-	- [Serialization](#serialization)
+	- [序列化](#序列化)
 	- [Miscellaneous](#miscellaneous)
-- [Resources](#resources)
+- [资源](#资源)
 	- [教程](#教程)
-	- [Discovery](#discovery)
+	- [发现](#发现)
 	- [文章](#文章)
 	- [新闻组邮件](#新闻组邮件)
 	- [视频](#视频)
@@ -89,14 +89,14 @@
 	- [博客](#博客)
 	- [课程](#课程)
 	- [Cheatsheets](#cheatsheets)
-	- [Tools](#tools)
-	- [Community](#community)
-	- [Miscellaneous](#miscellaneous)
+	- [工具](#工具)
+	- [社群](#社群)
+	- [其他](#其他)
 
 
 ## 包资源
 
-### Mad science
+### 科学计算
 
 - [webtorrent](https://github.com/feross/webtorrent) - Streaming torrent client for Node.js and the browser.
 - [peerflix](https://github.com/mafintosh/peerflix) - Streaming torrent client.
@@ -122,7 +122,7 @@
 - [isomorphic-git](https://github.com/isomorphic-git/isomorphic-git) - Pure JavaScript implementation of Git.
 
 
-### Command-line apps
+### 命令行应用
 
 - [np](https://github.com/sindresorhus/np) - Better `npm publish`.
 - [npm-name](https://github.com/sindresorhus/npm-name) - Check a package name's availability on npm.
@@ -234,7 +234,7 @@
 - [thetool](https://github.com/sfninja/thetool) - Capture different CPU, memory, and other profiles for your app in Chrome DevTools friendly format.
 
 
-### Logging
+### 日志记录
 
 - [pino](https://github.com/pinojs/pino) - Extremely fast logger inspired by Bunyan.
 - [winston](https://github.com/winstonjs/winston) - Multi-transport async logging library.
@@ -304,7 +304,7 @@
 - [pkg](https://github.com/zeit/pkg) - Package your Node.js project into an executable.
 
 
-### Hardware
+### 硬件
 
 - [johnny-five](https://github.com/rwaldron/johnny-five) - Firmata based Arduino Framework.
 - [serialport](https://github.com/voodootikigod/node-serialport) - Access serial ports for reading and writing.
@@ -316,7 +316,7 @@
 - [gps](https://github.com/infusion/GPS.js) - NMEA parser for handling GPS receivers.
 
 
-### Templating
+### 模版引擎
 
 - [marko](https://github.com/marko-js/marko) - HTML-based templating engine that compiles templates to CommonJS modules and supports streaming, async rendering and custom tags.
 - [nunjucks](https://github.com/mozilla/nunjucks) - Templating engine with inheritance, asynchronous control, and more (jinja2 inspired).
@@ -325,7 +325,7 @@
 - [Pug](https://github.com/pugjs/pug) - High-performance template engine heavily influenced by Haml.
 
 
-### Web frameworks
+### Web框架
 
 - [Hapi](https://github.com/hapijs/hapi) - Framework for building applications and services.
 - [Koa](https://github.com/koajs/koa) - Framework designed by the team behind Express, which aims to be a smaller, more expressive, and more robust foundation for web applications and APIs.
@@ -350,7 +350,7 @@
 - [TypeGraphQL](https://github.com/19majkel94/type-graphql) - Modern framework for creating GraphQL APIs with TypeScript, using classes and decorators.
 
 
-### Documentation
+### 文档
 
 - [documentation.js](https://github.com/documentationjs/documentation) - API documentation generator with support for ES2015+ and flow annotation.
 - [ESDoc](https://github.com/esdoc/esdoc) - Documentation generator targeting ES2015, attaching test code and measuring documentation coverage.
@@ -358,7 +358,7 @@
 - [JSDoc](https://github.com/jsdoc3/jsdoc) - API documentation generator similar to JavaDoc or PHPDoc.
 
 
-### Filesystem
+### 文件系统
 
 - [del](https://github.com/sindresorhus/del) - Delete files/folders using globs.
 - [globby](https://github.com/sindresorhus/globby) - Glob files with support for multiple patterns.
@@ -383,7 +383,7 @@
 - [tempy](https://github.com/sindresorhus/tempy) - Get a random temporary file or directory path.
 
 
-### Control flow
+### 控制流程
 
 - Promises
 	- [Bluebird](https://github.com/petkaantonov/bluebird) - Promise library with focus on innovative features and performance.
@@ -407,7 +407,7 @@
 	- [js-csp](https://github.com/ubolonton/js-csp) - Communicating sequential processes for JavaScript (like Clojurescript core.async, or Go).
 
 
-### Streams
+### 流处理
 
 - [through2](https://github.com/rvagg/through2) - Tiny wrapper around streams2 Transform to avoid explicit subclassing noise.
 - [from2](https://github.com/hughsk/from2) - Convenience wrapper for ReadableStream, inspired by `through2`.
@@ -426,7 +426,7 @@
 - [through2-concurrent](https://github.com/almost/through2-concurrent) - Transform object streams concurrently.
 
 
-### Real-time
+### 实时
 
 - [µWebSockets](https://github.com/uWebSockets/uWebSockets) - Highly scalable WebSocket server & client library.
 - [Socket.io](https://github.com/socketio/socket.io) - Enables real-time bidirectional event-based communication.
@@ -440,7 +440,7 @@
 - [Aedes](https://github.com/mcollina/aedes) - Barebone MQTT server that can run on any stream server.
 
 
-### Image
+### 图片
 
 - [sharp](https://github.com/lovell/sharp) - The fastest module for resizing JPEG, PNG, WebP and TIFF images.
 - [image-type](https://github.com/sindresorhus/image-type) - Detect the image type of a Buffer/Uint8Array.
@@ -452,7 +452,7 @@
 - [qrcode](https://github.com/soldair/node-qrcode) - QR code and bar code generator.
 
 
-### Text
+### 文本
 
 - [iconv-lite](https://github.com/ashtuchkin/iconv-lite) - Convert character encodings.
 - [string-length](https://github.com/sindresorhus/string-length) - Get the real length of a string - by correctly counting astral symbols and ignoring ansi escape codes.
@@ -471,7 +471,7 @@
 - [i18next](https://github.com/i18next/i18next) - Internationalization framework.
 
 
-### Number
+### 数字
 
 - [random-int](https://github.com/sindresorhus/random-int) - Generate a random integer.
 - [random-float](https://github.com/sindresorhus/random-float) - Generate a random float.
@@ -479,7 +479,7 @@
 - [round-to](https://github.com/sindresorhus/round-to) - Round a number to a specific number of decimal places: `1.234` → `1.2`.
 
 
-### Math
+### 数学
 
 - [ndarray](https://github.com/scijs/ndarray) - Multidimensional arrays.
 - [mathjs](https://github.com/josdejong/mathjs) - An extensive math library.
@@ -488,7 +488,7 @@
 - [multimath](https://github.com/nodeca/multimath) - Core to create fast image math in WebAssembly and JS.
 
 
-### Date
+### 时间日期
 
 - [Luxon](https://github.com/moment/luxon) - Library for working with dates and times.
 - [date-fns](https://github.com/date-fns/date-fns) - Modern date utility.
@@ -510,7 +510,7 @@
 - [embedza](https://github.com/nodeca/embedza) - Create HTML snippets/embeds from URLs using info from oEmbed, Open Graph, meta tags.
 
 
-### Data validation
+### 数据可视化
 
 - [joi](https://github.com/hapijs/joi) - Object schema description language and validator for JavaScript objects.
 - [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid) - JSON Schema validator that uses code generation to be extremely fast.
@@ -519,7 +519,7 @@
 - [ajv](https://github.com/epoberezkin/ajv) - The fastest JSON Schema validator. Supports v5, v6 and v7 proposals.
 
 
-### Parsing
+### 解析器
 
 - [remark](https://github.com/wooorm/remark) - Markdown processor powered by plugins.
 - [markdown-it](https://github.com/markdown-it/markdown-it) - Markdown parser with 100% CommonMark support, extensions and syntax plugins.
@@ -556,7 +556,7 @@
 - [read-art](https://github.com/Tjatse/node-readability) - Extract readable content from any page.
 
 
-### Compression
+### 压缩
 
 - [yazl](https://github.com/thejoshwolfe/yazl) - Zip.
 - [yauzl](https://github.com/thejoshwolfe/yauzl) - Unzip.
@@ -566,7 +566,7 @@
 - [decompress](https://github.com/kevva/decompress) - Decompression module with support for `tar`, `tar.gz` and `zip` files out of the box.
 
 
-### Network
+### 网络
 
 - [get-port](https://github.com/sindresorhus/get-port) - Get an available port.
 - [ipify](https://github.com/sindresorhus/ipify) - Get your public IP address.
@@ -575,7 +575,7 @@
 - [netcat](https://github.com/roccomuso/netcat) - Netcat port in pure JS.
 
 
-### Database
+### 数据库
 
 - Drivers
 	- [PostgreSQL](https://github.com/brianc/node-postgres) - PostgreSQL client. Pure JavaScript and native libpq bindings.
@@ -608,7 +608,7 @@
 	- [Mongo Seeding](https://github.com/pkosiec/mongo-seeding) - Populate MongoDB databases with JavaScript and JSON files.
 
 
-### Testing
+### 测试
 
 - [AVA](https://github.com/avajs/ava) - Futuristic test runner.
 - [Mocha](https://github.com/mochajs/mocha) - Feature-rich test framework making asynchronous testing simple and fun.
@@ -634,7 +634,7 @@
 - [CodeceptJS](https://github.com/Codeception/CodeceptJS) - End-to-end testing.
 
 
-### Security
+### 安全
 
 - [upash](https://github.com/simonepri/upash) - Unified API for all password hashing algorithms.
 - [themis](https://github.com/cossacklabs/themis) - Multilanguage framework for making typical encryption schemes easy to use: data at rest, authenticated data exchange, transport protection, authentication, and so on.
@@ -643,7 +643,7 @@
 - [crypto-hash](https://github.com/sindresorhus/crypto-hash) - Async non-blocking hashing.
 
 
-### Benchmarking
+### 性能评测
 
 - [Benchmark.js](https://github.com/bestiejs/benchmark.js) - Benchmarking library that supports high-resolution timers and returns statistically significant results.
 - [matcha](https://github.com/logicalparadox/matcha) - Simplistic approach to benchmarking.
@@ -678,7 +678,7 @@
 - [email-templates](https://github.com/niftylettuce/email-templates) - Create, preview, and send custom email templates.
 
 
-### Job queues
+### 任务队列
 
 - [bull](https://github.com/OptimalBits/bull) - Persistent job and message queue.
 - [agenda](https://github.com/rschmukler/agenda) - MongoDB-backed job scheduling.
@@ -754,7 +754,7 @@
 - [nodeBB](https://github.com/NodeBB/NodeBB) - Forum platform for the modern web.
 
 
-### Blogging
+### 博客生成
 
 - [Ghost](https://github.com/TryGhost/Ghost) - Simple, powerful publishing platform.
 - [Hexo](https://github.com/hexojs/hexo) - Fast, simple and powerful blogging framework.
@@ -773,14 +773,14 @@
 - [nerds](https://github.com/SkyHacks/nerds) - Get data from nerdy topics like Harry Potter, Star Wars, and Pokémon.
 
 
-### Serialization
+### 序列化
 
 - [snappy](https://github.com/kesla/node-snappy) - Native bindings for Google's Snappy compression library.
 - [protobuf](https://github.com/dcodeIO/protobuf.js) - Implementation of Protocol Buffers.
 - [compactr](https://github.com/compactr/compactr.js) - Implementation of the Compactr protocol.
 
 
-### Miscellaneous
+### 其他
 
 - [execa](https://github.com/sindresorhus/execa) - Better `child_process`.
 - [cheerio](https://github.com/cheeriojs/cheerio) - Fast, flexible, and lean implementation of core jQuery designed specifically for the server.
@@ -820,7 +820,7 @@
 - [basic-ftp](https://github.com/patrickjuchli/basic-ftp) – FTP/FTPS client.
 
 
-## Resources
+## 资源
 
 ### 教程
 
@@ -833,7 +833,7 @@
 - [You Don't Know Node.js](https://github.com/azat-co/you-dont-know-node) - Introduction to Node.js core features and asynchronous JavaScript.
 - [Portable Node.js guide](https://github.com/ehmicky/portable-node-guide) - Practical guide on how to write portable/cross-platform Node.js code.
 
-### Discovery
+### 发现
 
 - [npms](https://npms.io) - Superb package search with deep analysis of package quality using a [myriad of metrics](https://npms.io/about).
 - [npm addict](https://npmaddict.com) - Your daily injection of npm packages.
@@ -898,7 +898,7 @@
 - [Stream FAQs](https://github.com/stephenplusplus/stream-faqs) - Answering common questions about streams, covering pagination, events, and more.
 - [Strong Node.js](https://github.com/jesusprubio/strong-node) - Checklist for source code security analysis of a Node.js web service.
 
-### Tools
+### 工具
 
 - [OctoLinker](https://chrome.google.com/webstore/detail/octolinker/jlmafbaeoofdegohdhinkhilhclaklkp) - Chrome extension that linkifies dependencies in package.json, .js, .jsx, .coffee and .md files on GitHub.
 - [npm-hub](https://chrome.google.com/webstore/detail/npm-hub/kbbbjimdjbjclaebffknlabpogocablj) - Chrome extension to display npm dependencies at the bottom of a repo's readme.
@@ -907,7 +907,7 @@
 - [github-npm-stats](https://chrome.google.com/webstore/detail/github-npm-stats/oomfflokggoffaiagenekchfnpighcef) - Chrome extension that displays npm download stats on GitHub.
 - [npm semver calculator](https://semver.npmjs.com) - Visually explore what versions of a package a semver range matches.
 
-### Community
+### 社群
 
 - [Gitter](https://gitter.im/nodejs/node)
 - [`#node.js` on Freenode](http://webchat.freenode.net/?channels=node.js)
@@ -917,7 +917,7 @@
 - [Hashnode](https://hashnode.com/n/nodejs)
 - [Discord](https://discordapp.com/invite/96WGtJt)
 
-### Miscellaneous
+### 其他
 
 - [nodebots](http://nodebots.io) - Robots powered by JavaScript.
 - [node-module-boilerplate](https://github.com/sindresorhus/node-module-boilerplate) - Boilerplate to kickstart creating a node module.
