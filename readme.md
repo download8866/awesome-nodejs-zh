@@ -28,9 +28,9 @@
 </div>
 
 
-## Contents
+## 内容大纲
 
-- [Packages](#packages)
+- [包资源](#包资源)
 	- [Mad science](#mad-science)
 	- [Command-line apps](#command-line-apps)
 	- [Functional programming](#functional-programming)
@@ -94,7 +94,7 @@
 	- [Miscellaneous](#miscellaneous)
 
 
-## Packages
+## 包资源
 
 ### Mad science
 
