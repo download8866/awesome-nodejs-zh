@@ -33,12 +33,12 @@
 - [包资源](#包资源)
 	- [Mad science](#mad-science)
 	- [Command-line apps](#command-line-apps)
-	- [Functional programming](#functional-programming)
+	- [函数式编程](#函数式编程)
 	- [HTTP](#http)
 	- [Debugging / Profiling](#debugging--profiling)
 	- [Logging](#logging)
 	- [Command-line utilities](#command-line-utilities)
-	- [Build tools](#build-tools)
+	- [构建工具](#构建工具)
 	- [Hardware](#hardware)
 	- [Templating](#templating)
 	- [Web frameworks](#web-frameworks)
@@ -80,14 +80,14 @@
 	- [Serialization](#serialization)
 	- [Miscellaneous](#miscellaneous)
 - [Resources](#resources)
-	- [Tutorials](#tutorials)
+	- [教程](#教程)
 	- [Discovery](#discovery)
-	- [Articles](#articles)
-	- [Newsletters](#newsletters)
-	- [Videos](#videos)
-	- [Books](#books)
-	- [Blogs](#blogs)
-	- [Courses](#courses)
+	- [文章](#文章)
+	- [新闻组邮件](#新闻组邮件)
+	- [视频](#视频)
+	- [书籍](#书籍)
+	- [博客](#博客)
+	- [课程](#课程)
 	- [Cheatsheets](#cheatsheets)
 	- [Tools](#tools)
 	- [Community](#community)
@@ -185,7 +185,7 @@
 - [discharge](https://github.com/brandonweiss/discharge) - Easily deploy static websites to Amazon S3.
 
 
-### Functional programming
+### 函数式编程
 
 - [lodash](https://github.com/lodash/lodash) - Utility library delivering consistency, customization, performance, & extras. A better and faster Underscore.js.
 - [immutable](https://github.com/facebook/immutable-js) - Immutable data collections.
@@ -290,7 +290,7 @@
 - [Cliffy](https://github.com/drew-y/cliffy) - Framework for interactive CLIs.
 
 
-### Build tools
+### 构建工具
 
 - [parcel](https://github.com/parcel-bundler/parcel) - Blazing fast, zero config web app bundler.
 - [webpack](https://github.com/webpack/webpack) - Packs modules and assets for the browser.
@@ -588,7 +588,7 @@
 	- [MongoDB](https://github.com/mongodb/node-mongodb-native) - MongoDB driver.
 - ODM / ORM
 	- [Sequelize](https://github.com/sequelize/sequelize) - Multi-dialect ORM. Supports PostgreSQL, SQLite, MySQL.
-	- [Bookshelf](https://github.com/bookshelf/bookshelf) - ORM for PostgreSQL, MySQL and SQLite3 in the style of Backbone.js.
+	- [书籍helf](https://github.com/书籍helf/书籍helf) - ORM for PostgreSQL, MySQL and SQLite3 in the style of Backbone.js.
 	- [Massive](https://github.com/robconery/massive-js) - PostgreSQL data access tool.
 	- [Mongoose](https://github.com/Automattic/mongoose) - Elegant MongoDB object modeling.
 	- [Waterline](https://github.com/balderdashy/waterline) - Datastore-agnostic tool that dramatically simplifies interaction with one or more databases.
@@ -822,7 +822,7 @@
 
 ## Resources
 
-### Tutorials
+### 教程
 
 - [Node.js Best Practices](https://github.com/i0natan/nodebestpractices) - Summary and curation of the top-ranked content on Node.js best practices, available in multiple languages.
 - [Nodeschool](https://github.com/nodeschool) - Learn Node.js with interactive lessons.
@@ -839,10 +839,10 @@
 - [npm addict](https://npmaddict.com) - Your daily injection of npm packages.
 - [npmcompare.com](https://npmcompare.com) - Compare and discover npm packages.
 
-### Articles
+### 文章
 
 - [Error Handling in Node.js](https://www.joyent.com/node-js/production/design/errors)
-- [Teach Yourself Node.js in 10 Steps](https://ponyfoo.com/articles/teach-yourself-nodejs-in-10-steps)
+- [Teach Yourself Node.js in 10 Steps](https://ponyfoo.com/文章/teach-yourself-nodejs-in-10-steps)
 - [Mastering the filesystem in Node.js](https://medium.com/@yoshuawuyts/mastering-the-filesystem-in-node-js-4706b7cb0801)
 - [Semver: A Primer](https://nodesource.com/blog/semver-a-primer/)
 - [Semver: Tilde and Caret](https://nodesource.com/blog/semver-tilde-and-caret/)
@@ -852,21 +852,21 @@
 - [Art of README](https://github.com/noffle/art-of-readme) - Learn the art of writing quality READMEs.
 - [Using Express to Quickly Build a GraphQL Server](https://snipcart.com/blog/graphql-nodejs-express-tutorial)
 
-### Newsletters
+### 新闻组邮件
 
-- [Node Weekly](http://nodeweekly.com) - Weekly e-mail round-up of Node.js news and articles.
+- [Node Weekly](http://nodeweekly.com) - Weekly e-mail round-up of Node.js news and 文章.
 - [Node Module Of The Week!](https://nmotw.in) - Weekly dose of hand picked node modules.
 
-### Videos
+### 视频
 
 - [Introduction to Node.js with Ryan Dahl](https://www.youtube.com/watch?v=jo_B4LTHi3I)
 - [Hands on with Node.js](https://learn.bevry.me/hands-on-with-node.js/preface)
 - [Nodetuts](http://nodetuts.com) - Series of talks, including TCP & HTTP API servers, async programming, and more.
 - [V8 Garbage Collector](https://v8.dev/blog/trash-talk) - Trash talk about the V8 garbage collector.
 
-### Books
+### 书籍
 
-- [Node.js in Action](https://www.manning.com/books/node-js-in-action-second-edition)
+- [Node.js in Action](https://www.manning.com/书籍/node-js-in-action-second-edition)
 - [Node.js in Practice](http://www.amazon.com/Node-js-Practice-Alex-R-Young/dp/1617290939)
 - [Mastering Node](http://visionmedia.github.io/masteringnode/)
 - [Node.js 8 the Right Way](https://pragprog.com/book/jwnode2/node-js-8-the-right-way)
@@ -876,19 +876,19 @@
 - [Web Development with Node and Express](http://shop.oreilly.com/product/0636920032977.do)
 - [Pro Express.js](http://proexpressjs.com)
 - [Secure Your Node.js Web Application](http://www.amazon.com/Secure-Your-Node-js-Web-Application/dp/1680500856)
-- [Express in Action](https://www.manning.com/books/express-in-action)
+- [Express in Action](https://www.manning.com/书籍/express-in-action)
 - [Practical Modern JavaScript](https://www.amazon.com/Practical-Modern-JavaScript-Dive-Future/dp/149194353X)
 - [Mastering Modular JavaScript](https://www.amazon.com/Mastering-Modular-JavaScript-Nicolas-Bevacqua/dp/1491955686/)
-- [Get Programming with Node.js](https://www.manning.com/books/get-programming-with-node-js)
+- [Get Programming with Node.js](https://www.manning.com/书籍/get-programming-with-node-js)
 
-### Blogs
+### 博客
 
 - [Node.js blog](https://nodejs.org/en/blog/)
 - [webapplog.com](http://webapplog.com/tag/node-js/) - Blog posts on Node.js and JavaScript from the author of Practical Node.js and Pro Express.js Azat Mardan.
 
-### Courses
+### 课程
 
-- [Learn to build apps and APIs with Node.js](https://learnnode.com/friend/AWESOME) - Video course by Wes Bos.
+- [Learn to build apps and APIs with Node.js](https://learnnode.com/friend/AWESOME) - 视频课程 作者Wes Bos.
 - [Real Time Web with Node.js](https://www.codeschool.com/courses/real-time-web-with-node-js)
 - [Learn and Understand Node.js](https://www.udemy.com/understand-nodejs)
 
