@@ -1,10 +1,10 @@
 <div align="center">
 	<div>
-		<img width="500" src="media/logo.svg" alt="Awesome Node.js">
+		<img width="500" src="media/logo.svg" alt="最棒的 Node.js">
 	</div>
 	<br>
 	<p>
-		<sup>Special thanks to:</sup>
+		<sup>特别鸣谢:</sup>
 		<br>
 		<br>
 		<a href="https://segment.com">
@@ -13,7 +13,7 @@
 	</p>
 	<p>
 		<sup>
-			Save time setting up analytics with Segment. <a href="https://segment.com/jobs">We're hiring!</a>
+<!-- 		 选择 Segment  -- 节省时间的分析工具. <a href="https://segment.com/jobs">我们正在招聘!</a> -->
 		</sup>
 	</p>
 	<br>
