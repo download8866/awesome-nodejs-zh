@@ -63,12 +63,12 @@
 	- [安全](#安全)
 	- [性能评测](#性能评测)
 	- [Minifiers](#minifiers)
-	- [Authentication](#authentication)
-	- [Authorization](#authorization)
+	- [认证](#认证)
+	- [授权](#授权)
 	- [Email](#email)
 	- [任务队列](#任务队列)
-	- [Node.js management](#nodejs-management)
-	- [Natural language processing](#natural-language-processing)
+	- [Node.js版本管理](#Node.js版本管理)
+	- [自然语言处理](#自然语言处理)
 	- [Process management](#process-management)
 	- [Automation](#automation)
 	- [AST](#ast)
@@ -658,14 +658,14 @@
 - [imagemin](https://github.com/imagemin/imagemin) - Image minifier.
 
 
-### Authentication
+### 认证
 
 - [Passport](https://github.com/jaredhanson/passport) - Simple, unobtrusive authentication.
 - [Grant](https://github.com/simov/grant) - OAuth middleware for Express, Koa, and Hapi.
 - [CloudRail](https://github.com/CloudRail/cloudrail-si-node-sdk) - Unified API for social authentication (Facebook, Twitter, Slack, Instagram, …).
 
 
-### Authorization
+### 授权
 
 - [CASL](https://github.com/stalniy/casl) - Isomorphic authorization for UI and API.
 - [node-casbin](https://github.com/casbin/node-casbin) - Authorization library that supports access control models like ACL, RBAC and ABAC.
@@ -691,7 +691,7 @@
 - [better-queue](https://github.com/diamondio/better-queue) - Simple and efficient job queue when you cannot use Redis.
 
 
-### Node.js management
+### Node.js版本管理
 
 - [n](https://github.com/tj/n) - Node.js version management.
 - [nave](https://github.com/isaacs/nave) - Virtual Environments for Node.js.
@@ -700,7 +700,7 @@
 - [nodenv](https://github.com/nodenv/nodenv) - Version manager that is similar to Ruby's rbenv. It supports auto version switching.
 
 
-### Natural language processing
+### 自然语言处理
 
 - [retext](https://github.com/wooorm/retext) - An extensible natural language system.
 - [franc](https://github.com/wooorm/franc) - Detect the language of text.
