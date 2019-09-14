@@ -539,9 +539,9 @@
 - [nearley](https://github.com/Hardmath123/nearley) - Simple, fast, powerful parsing for JavaScript.
 - [binary-extract](https://github.com/juliangruber/binary-extract) - Extract a value from a buffer of JSON without parsing the whole thing.
 - [Stylecow](https://github.com/stylecow/stylecow) - Parse, manipulate and convert modern CSS to make it compatible with all browsers. Extensible with plugins.
-- [js-yaml](https://github.com/nodeca/js-yaml) - Very fast YAML parser.
-- [xml2js](https://github.com/Leonidas-from-XIV/node-xml2js) - XML to JavaScript object converter.
-- [Jison](https://github.com/zaach/jison) - Friendly JavaScript parser generator. It shares genes with Bison, Yacc and family.
+- [js-yaml](https://github.com/nodeca/js-yaml) - 非常快速的yaml解析器.
+- [xml2js](https://github.com/Leonidas-from-XIV/node-xml2js) - XML到JavaScript对象转换器.
+- [Jison](https://github.com/zaach/jison) - 友好的javascript解析器生成器。它与Bison、yacc和家族共享基因。
 - [google-libphonenumber](https://github.com/seegno/google-libphonenumber) - Parse, format, store and validate phone numbers.
 - [ref](https://github.com/TooTallNate/ref) - Read/write structured binary data in Buffers.
 - [xlsx-populate](https://github.com/dtjohnson/xlsx-populate) - Read/write Excel XLSX.
@@ -553,15 +553,15 @@
 
 - [pretty-bytes](https://github.com/sindresorhus/pretty-bytes) - Convert bytes to a human readable string: `1337` → `1.34 kB`.
 - [pretty-ms](https://github.com/sindresorhus/pretty-ms) - Convert milliseconds to a human readable string: `1337000000` → `15d 11h 23m 20s`.
-- [ms](https://github.com/rauchg/ms.js) - Tiny millisecond conversion utility.
-- [pretty-error](https://github.com/AriaMinaei/pretty-error) - Errors with less clutter.
-- [read-art](https://github.com/Tjatse/node-readability) - Extract readable content from any page.
+- [ms](https://github.com/rauchg/ms.js) - Tiny毫秒转换功用
+- [pretty-error](https://github.com/AriaMinaei/pretty-error) - 更友好的错误展示.
+- [read-art](https://github.com/Tjatse/node-readability) - 从任何页面提取可读内容.
 
 
 ### 压缩
 
-- [yazl](https://github.com/thejoshwolfe/yazl) - Zip.
-- [yauzl](https://github.com/thejoshwolfe/yauzl) - Unzip.
+- [yazl](https://github.com/thejoshwolfe/yazl) - zip压缩.
+- [yauzl](https://github.com/thejoshwolfe/yauzl) - Unzip解压缩.
 - [Archiver](https://github.com/archiverjs/node-archiver) - Streaming interface for archive generation, supporting ZIP and TAR.
 - [pako](https://github.com/nodeca/pako) - High speed zlib port to pure js (deflate, inflate, gzip).
 - [tar-stream](https://github.com/mafintosh/tar-stream) - Streaming tar parser and generator. Also see [tar-fs](https://github.com/mafintosh/tar-fs).
@@ -570,24 +570,24 @@
 
 ### 网络
 
-- [get-port](https://github.com/sindresorhus/get-port) - Get an available port.
-- [ipify](https://github.com/sindresorhus/ipify) - Get your public IP address.
-- [getmac](https://github.com/bevry/getmac) - Get the computer MAC address.
+- [get-port](https://github.com/sindresorhus/get-port) - 获取可用端口.
+- [ipify](https://github.com/sindresorhus/ipify) - 获取您的公共IP地址.
+- [getmac](https://github.com/bevry/getmac) - 获取计算机的MAC地址.
 - [DHCP](https://github.com/infusion/node-dhcp) - DHCP client and server.
-- [netcat](https://github.com/roccomuso/netcat) - Netcat port in pure JS.
+- [netcat](https://github.com/roccomuso/netcat) - 纯js中的netcat端口.
 
 
 ### 数据库
 
 - 驱动
-	- [PostgreSQL](https://github.com/brianc/node-postgres) - PostgreSQL client. Pure JavaScript and native libpq bindings.
-	- [Redis](https://github.com/luin/ioredis) - Redis client.
-	- [LevelUP](https://github.com/Level/levelup) - LevelDB.
-	- [MySQL](https://github.com/mysqljs/mysql) - MySQL client.
-	- [couchdb-nano](https://github.com/apache/couchdb-nano) - CouchDB client.
-	- [Aerospike](https://github.com/aerospike/aerospike-client-nodejs) - Aerospike client.
-	- [Couchbase](https://github.com/couchbase/couchnode) - Couchbase client.
-	- [MongoDB](https://github.com/mongodb/node-mongodb-native) - MongoDB driver.
+	- [PostgreSQL](https://github.com/brianc/node-postgres) - PostgreSQL 客户端驱动. 纯javascript和本地libpq绑定.
+	- [Redis](https://github.com/luin/ioredis) - Redis 客户端驱动.
+	- [LevelUP](https://github.com/Level/levelup) - LevelDB 客户端驱动.
+	- [MySQL](https://github.com/mysqljs/mysql) - MySQL 客户端驱动.
+	- [couchdb-nano](https://github.com/apache/couchdb-nano) - CouchDB 客户端驱动.
+	- [Aerospike](https://github.com/aerospike/aerospike-client-nodejs) - Aerospike 客户端驱动.
+	- [Couchbase](https://github.com/couchbase/couchnode) - Couchbase 客户端驱动.
+	- [MongoDB](https://github.com/mongodb/node-mongodb-native) - MongoDB 客户端驱动.
 - ODM / ORM
 	- [Sequelize](https://github.com/sequelize/sequelize) - 多适配ORM。支持postgresql、sqlite、mysql.
 	- [书籍helf](https://github.com/书籍helf/书籍helf) - ORM for PostgreSQL, MySQL and SQLite3 in the style of Backbone.js.
