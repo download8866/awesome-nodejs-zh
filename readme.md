@@ -71,7 +71,7 @@
 	- [自然语言处理](#自然语言处理)
 	- [进程管理](#进程管理)
 	- [自动化](#自动化)
-	- [AST](#ast)
+	- [AST抽象语法树](#ast抽象语法树)
 	- [静态站点生成器](#静态站点生成器)
 	- [内容管理系统](#内容管理系统)
 	- [论坛](#论坛)
@@ -725,7 +725,7 @@
 - [robotjs](https://github.com/octalmage/robotjs) - Desktop Automation: control the mouse, keyboard and read the screen.
 
 
-### AST
+### AST抽象语法树
 
 - [Acorn](https://github.com/ternjs/acorn) - Tiny, fast JavaScript parser.
 - [babel-parser](https://github.com/babel/babel/tree/master/packages/babel-parser) - JavaScript parser used in Babel.
