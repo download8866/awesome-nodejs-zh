@@ -76,7 +76,7 @@
 	- [内容管理系统](#内容管理系统)
 	- [论坛](#论坛)
 	- [博客生成](#博客生成)
-	- [Weird](#weird)
+	- [不寻常的](#不寻常的)
 	- [序列化](#序列化)
 	- [其他杂项](#其他杂项)
 - [资源](#资源)
@@ -88,10 +88,12 @@
 	- [书籍](#书籍)
 	- [博客](#博客)
 	- [课程](#课程)
-	- [Cheatsheets](#cheatsheets)
+	- [抄本](#抄本)
 	- [工具](#工具)
 	- [社群](#社群)
 	- [其他](#其他)
+- [相关列表](#相关列表)
+- [许可](#许可)
 
 
 ## 包资源
@@ -124,7 +126,7 @@
 
 ### 命令行应用
 
-- [np](https://github.com/sindresorhus/np) - Better `npm publish`.
+- [np](https://github.com/sindresorhus/np) - 更好的 `npm publish`.
 - [npm-name](https://github.com/sindresorhus/npm-name) - Check a package name's availability on npm.
 - [gh-home](https://github.com/sindresorhus/gh-home) - Open the GitHub page of the repo in the current directory.
 - [npm-home](https://github.com/sindresorhus/npm-home) - Open the npm page of a package.
@@ -145,8 +147,8 @@
 - [dev-time](https://github.com/samverschueren/dev-time-cli) - Get the current local time of a GitHub user.
 - [David](https://github.com/alanshaw/david) - Tells you when your package npm dependencies are out of date.
 - [http-server](https://github.com/indexzero/http-server) - Simple, zero-config command-line HTTP server.
-- [Live Server](https://github.com/tapio/live-server) - Development HTTP-server with livereload capability.
-- [bcat](https://github.com/kessler/node-bcat) - Pipe command output to web browsers.
+- [Live Server](https://github.com/tapio/live-server) - 开发具有livereload功能的http服务器.
+- [bcat](https://github.com/kessler/node-bcat) - 将命令输出到Web浏览器的管道.
 - [normit](https://github.com/pawurb/normit) - Google Translate with speech synthesis in your terminal.
 - [fkill](https://github.com/sindresorhus/fkill-cli) - Fabulously kill processes. Cross-platform.
 - [pjs](https://github.com/danielstjules/pjs) - Pipeable JavaScript. Quickly filter, map, and reduce from the terminal.
@@ -245,8 +247,8 @@
 
 ### 命令行实用程序
 
-- [chalk](https://github.com/chalk/chalk) - Terminal string styling done right.
-- [meow](https://github.com/sindresorhus/meow) - CLI app helper.
+- [chalk](https://github.com/chalk/chalk) - 终端字符串样式正确.
+- [meow](https://github.com/sindresorhus/meow) - CLI app 帮助程序.
 - [yargs](https://github.com/yargs/yargs) - Command-line parser that automatically generates an elegant user-interface.
 - [ora](https://github.com/sindresorhus/ora) - Elegant terminal spinner.
 - [get-stdin](https://github.com/sindresorhus/get-stdin) - Easier stdin.
@@ -257,7 +259,7 @@
 - [ansi-escapes](https://github.com/sindresorhus/ansi-escapes) - ANSI escape codes for manipulating the terminal.
 - [log-symbols](https://github.com/sindresorhus/log-symbols) - Colored symbols for various log levels.
 - [figures](https://github.com/sindresorhus/figures) - Unicode symbols with Windows CMD fallbacks.
-- [boxen](https://github.com/sindresorhus/boxen) - Create boxes in the terminal.
+- [boxen](https://github.com/sindresorhus/boxen) - 在终端中创建框.
 - [terminal-link](https://github.com/sindresorhus/terminal-link) - Create clickable links in the terminal.
 - [terminal-image](https://github.com/sindresorhus/terminal-image) - Display images in the terminal.
 - [string-width](https://github.com/sindresorhus/string-width) - Get the visual width of a string - the number of columns required to display it.
@@ -398,12 +400,12 @@
 	- [RxJS](https://github.com/ReactiveX/RxJS) - Reactive programming.
 	- [observable-to-promise](https://github.com/sindresorhus/awesome-observables) - Convert an Observable to a Promise.
 	- [More…](https://github.com/sindresorhus/awesome-observables)
-- Streams
+- 流
 	- [Highland.js](https://github.com/caolan/highland) - Manages synchronous and asynchronous code easily, using nothing more than standard JavaScript and Node-like Streams.
-- Callbacks
+- 回调
 	- [each-async](https://github.com/sindresorhus/each-async) - Async concurrent iterator like forEach.
 	- [async](https://github.com/caolan/async) - Provides straight-forward, powerful functions for working with asynchronicity.
-- Channels
+- 通道
 	- [js-csp](https://github.com/ubolonton/js-csp) - Communicating sequential processes for JavaScript (like Clojurescript core.async, or Go).
 
 
@@ -429,8 +431,8 @@
 ### 实时
 
 - [µWebSockets](https://github.com/uWebSockets/uWebSockets) - Highly scalable WebSocket server & client library.
-- [Socket.io](https://github.com/socketio/socket.io) - Enables real-time bidirectional event-based communication.
-- [Faye](https://github.com/faye/faye) - Real-time client-server message bus, based on Bayeux protocol.
+- [Socket.io](https://github.com/socketio/socket.io) - 启用基于事件的实时双向通信。
+- [Faye](https://github.com/faye/faye) - 基于bayeux协议的实时客户机-服务器消息总线.
 - [SocketCluster](https://github.com/SocketCluster/socketcluster) - Scalable HTTP + WebSocket engine which can run on multiple CPU cores.
 - [Primus](https://github.com/primus/primus) - An abstraction layer for real-time frameworks to prevent module lock-in.
 - [deepstream.io](https://github.com/deepstreamIO/deepstream.io-client-js) - Scalable real-time microservice framework.
@@ -473,8 +475,8 @@
 
 ### 数字
 
-- [random-int](https://github.com/sindresorhus/random-int) - Generate a random integer.
-- [random-float](https://github.com/sindresorhus/random-float) - Generate a random float.
+- [random-int](https://github.com/sindresorhus/random-int) - 生成一个随机整数.
+- [random-float](https://github.com/sindresorhus/random-float) - 生成一个随机浮点数.
 - [unique-random](https://github.com/sindresorhus/unique-random) - Generate random numbers that are consecutively unique.
 - [round-to](https://github.com/sindresorhus/round-to) - Round a number to a specific number of decimal places: `1.234` → `1.2`.
 
@@ -577,7 +579,7 @@
 
 ### 数据库
 
-- Drivers
+- 驱动
 	- [PostgreSQL](https://github.com/brianc/node-postgres) - PostgreSQL client. Pure JavaScript and native libpq bindings.
 	- [Redis](https://github.com/luin/ioredis) - Redis client.
 	- [LevelUP](https://github.com/Level/levelup) - LevelDB.
@@ -587,7 +589,7 @@
 	- [Couchbase](https://github.com/couchbase/couchnode) - Couchbase client.
 	- [MongoDB](https://github.com/mongodb/node-mongodb-native) - MongoDB driver.
 - ODM / ORM
-	- [Sequelize](https://github.com/sequelize/sequelize) - Multi-dialect ORM. Supports PostgreSQL, SQLite, MySQL.
+	- [Sequelize](https://github.com/sequelize/sequelize) - 多适配ORM。支持postgresql、sqlite、mysql.
 	- [书籍helf](https://github.com/书籍helf/书籍helf) - ORM for PostgreSQL, MySQL and SQLite3 in the style of Backbone.js.
 	- [Massive](https://github.com/robconery/massive-js) - PostgreSQL data access tool.
 	- [Mongoose](https://github.com/Automattic/mongoose) - Elegant MongoDB object modeling.
@@ -597,9 +599,9 @@
 	- [slonik](https://github.com/gajus/slonik) - PostgreSQL client with strict types, detailed logging and assertions.
 	- [Objection.js](https://github.com/Vincit/objection.js) - Lightweight ORM built on the SQL query builder Knex.
 	- [TypeORM](https://github.com/typeorm/typeorm) - ORM for PostgreSQL, MariaDB, MySQL, SQLite, and more.
-- Query builder
+- 查询构造器
 	- [Knex](https://github.com/tgriesser/knex) - Query builder for PostgreSQL, MySQL and SQLite3, designed to be flexible, portable, and fun to use.
-- Other
+- 其他资源
 	- [NeDB](https://github.com/louischatriot/nedb) - Embedded persistent database written in JavaScript.
 	- [Lowdb](https://github.com/typicode/lowdb) - Small JavaScript database powered by Lodash.
 	- [Keyv](https://github.com/lukechilds/keyv) - Simple key-value storage with support for multiple backends.
@@ -760,7 +762,7 @@
 - [Hexo](https://github.com/hexojs/hexo) - Fast, simple and powerful blogging framework.
 
 
-### Weird
+### 不寻常的
 
 - [cows](https://github.com/sindresorhus/cows) - ASCII cows.
 - [superb](https://github.com/sindresorhus/superb) - Get superb like words.
@@ -892,9 +894,9 @@
 - [Real Time Web with Node.js](https://www.codeschool.com/courses/real-time-web-with-node-js)
 - [Learn and Understand Node.js](https://www.udemy.com/understand-nodejs)
 
-### Cheatsheets
+### 抄本
 
-- [Express.js](https://github.com/azat-co/cheatsheets/blob/master/express4)
+- [Express.js](https://github.com/azat-co/cheatsheets/blob/master/express4) Express.js 4 抄本
 - [Stream FAQs](https://github.com/stephenplusplus/stream-faqs) - Answering common questions about streams, covering pagination, events, and more.
 - [Strong Node.js](https://github.com/jesusprubio/strong-node) - Checklist for source code security analysis of a Node.js web service.
 
@@ -926,13 +928,13 @@
 - [Module Requests & Ideas](https://github.com/sindresorhus/module-requests) - Request a JavaScript module you wish existed or get ideas for modules.
 
 
-## Related lists
+## 相关列表
 
 - [awesome-npm](https://github.com/sindresorhus/awesome-npm) - Resources and tips for using npm.
 - [awesome-cross-platform-nodejs](https://github.com/bcoe/awesome-cross-platform-nodejs) - Resources for writing and testing cross-platform code.
 
 
-## License
+## 许可
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
