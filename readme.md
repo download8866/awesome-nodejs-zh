@@ -35,9 +35,9 @@
 	- [命令行应用](#命令行应用)
 	- [函数式编程](#函数式编程)
 	- [HTTP](#http)
-	- [Debugging / Profiling](#debugging--profiling)
+	- [调试分析](#调试分析)
 	- [日志记录](#日志记录)
-	- [Command-line utilities](#command-line-utilities)
+	- [命令行实用程序](#命令行实用程序)
 	- [构建工具](#构建工具)
 	- [硬件](#硬件)
 	- [模版引擎](#模版引擎)
@@ -55,7 +55,7 @@
 	- [URL](#url)
 	- [数据可视化](#数据可视化)
 	- [解析器](#解析器)
-	- [Humanize](#humanize)
+	- [人性化](#人性化)
 	- [压缩](#压缩)
 	- [网络](#网络)
 	- [数据库](#数据库)
@@ -69,16 +69,16 @@
 	- [任务队列](#任务队列)
 	- [Node.js版本管理](#Node.js版本管理)
 	- [自然语言处理](#自然语言处理)
-	- [Process management](#process-management)
-	- [Automation](#automation)
+	- [进程管理](#进程管理)
+	- [自动化](#自动化)
 	- [AST](#ast)
-	- [Static site generators](#static-site-generators)
-	- [Content management systems](#content-management-systems)
-	- [Forum](#forum)
+	- [静态站点生成器](#静态站点生成器)
+	- [内容管理系统](#内容管理系统)
+	- [论坛](#论坛)
 	- [博客生成](#博客生成)
 	- [Weird](#weird)
 	- [序列化](#序列化)
-	- [Miscellaneous](#miscellaneous)
+	- [其他杂项](#其他杂项)
 - [资源](#资源)
 	- [教程](#教程)
 	- [发现](#发现)
@@ -216,7 +216,7 @@
 - [global-agent](https://github.com/gajus/global-agent) – Global HTTP/HTTPS proxy agent that is configurable using environment variables.
 
 
-### Debugging / Profiling
+### 调试分析
 
 - [ndb](https://github.com/GoogleChromeLabs/ndb) - Improved debugging experience, enabled by Chrome DevTools.
 - [ironNode](https://github.com/s-a/iron-node) - Node.js debugger supporting ES2015 out of the box.
@@ -243,7 +243,7 @@
 - [signale](https://github.com/klauscfhq/signale) - Hackable console logger with beautiful output.
 
 
-### Command-line utilities
+### 命令行实用程序
 
 - [chalk](https://github.com/chalk/chalk) - Terminal string styling done right.
 - [meow](https://github.com/sindresorhus/meow) - CLI app helper.
@@ -547,7 +547,7 @@
 - [fast-xml-parser](https://github.com/NaturalIntelligence/fast-xml-parser) - Validate and parse XML.
 
 
-### Humanize
+### 人性化
 
 - [pretty-bytes](https://github.com/sindresorhus/pretty-bytes) - Convert bytes to a human readable string: `1337` → `1.34 kB`.
 - [pretty-ms](https://github.com/sindresorhus/pretty-ms) - Convert milliseconds to a human readable string: `1337000000` → `15d 11h 23m 20s`.
@@ -709,7 +709,7 @@
 - [nlp.js](https://github.com/axa-group/nlp.js) - Building bots, with entity extraction, sentiment analysis, automatic language identify, and more.
 
 
-### Process management
+### 进程管理
 
 - [PM2](https://github.com/Unitech/pm2) - Advanced Process Manager.
 - [nodemon](https://github.com/remy/nodemon) - Monitor for changes in your app and automatically restart the server.
@@ -720,7 +720,7 @@
 - [Phusion Passenger](https://github.com/phusion/passenger) - Friendly process manager that integrates directly into Nginx.
 
 
-### Automation
+### 自动化
 
 - [robotjs](https://github.com/octalmage/robotjs) - Desktop Automation: control the mouse, keyboard and read the screen.
 
@@ -732,7 +732,7 @@
 - [cherow](https://github.com/cherow/cherow) - JavaScript parser with focus on performance and stability.
 
 
-### Static site generators
+### 静态站点生成器
 
 - [Wintersmith](https://github.com/jnordberg/wintersmith) - Flexible, minimalistic, multi-platform static site generator.
 - [Assemble](https://github.com/assemble/assemble/) - Static site generator for Node.js, Grunt.js, and Yeoman.
@@ -741,7 +741,7 @@
 - [docsify](https://github.com/QingWei-Li/docsify) - Markdown documentation site generator with no statically built HTML files.
 
 
-### Content management systems
+### 内容管理系统
 
 - [KeystoneJS](https://github.com/keystonejs/keystone) - CMS and web application platform built on Express and MongoDB.
 - [ApostropheCMS](https://github.com/apostrophecms/apostrophe) - Content management system with an emphasis on intuitive front end content editing and administration built on Express and MongoDB.
@@ -749,7 +749,7 @@
 - [Tipe](https://github.com/tipeio/tipe) - Developer-first content management system with GraphQL and REST API from a schema file.
 
 
-### Forum
+### 论坛
 
 - [nodeBB](https://github.com/NodeBB/NodeBB) - Forum platform for the modern web.
 
@@ -780,7 +780,7 @@
 - [compactr](https://github.com/compactr/compactr.js) - Implementation of the Compactr protocol.
 
 
-### 其他
+### 其他杂项
 
 - [execa](https://github.com/sindresorhus/execa) - Better `child_process`.
 - [cheerio](https://github.com/cheeriojs/cheerio) - Fast, flexible, and lean implementation of core jQuery designed specifically for the server.
