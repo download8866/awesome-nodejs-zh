@@ -12,9 +12,9 @@
 		</a>
 	</p>
 	<p>
-		<sup>
-<!-- 		 选择 Segment  -- 节省时间的分析工具. <a href="https://segment.com/jobs">我们正在招聘!</a> -->
-		</sup>
+		<!-- <sup>
+		 选择 Segment  -- 节省时间的分析工具. <a href="https://segment.com/jobs">我们正在招聘!</a>
+		</sup> -->
 	</p>
 	<br>
 	<br>
